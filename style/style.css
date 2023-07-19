@@ -65,6 +65,7 @@ body {
 }
 
 /* banner section */
+<<<<<<< HEAD
 .banner {
    display: flex;
    justify-content: space-around;
@@ -82,25 +83,55 @@ body {
 
 .sign-in-btn {
    color: #fff;
+=======
+.banner{
+   display: flex;
+   justify-content: space-around;
+}
+
+.banner-description{
+   background: url('');
+   width: 800px;
+   height: 600px;
+   margin-top: 100px;
+
+}
+
+.sign-in-btn{
+   color: #FFF;
+>>>>>>> 4475ce2176370ca687833fe5de50baf185875d6f
    font-size: 15px;
    font-weight: 600;
    text-transform: uppercase;
    border: none;
    border-radius: 30px;
    padding: 10px 25px;
+<<<<<<< HEAD
    background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
    margin-right: 17px;
 }
 
 .go-rogue-btn {
    color: #fff;
+=======
+   background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+   margin-right: 17px;
+}
+
+.go-rogue-btn{
+   color: #FFF;
+>>>>>>> 4475ce2176370ca687833fe5de50baf185875d6f
    font-size: 15px;
    font-weight: 600;
    text-transform: uppercase;
    border: none;
    border-radius: 30px;
    padding: 10px 25px;
+<<<<<<< HEAD
    background: #4ec5f7;
+=======
+   background: #4EC5F7;
+>>>>>>> 4475ce2176370ca687833fe5de50baf185875d6f
    gap: 5px;
 }
 
@@ -119,6 +150,7 @@ body {
    -webkit-text-fill-color: transparent;
 }
 
+<<<<<<< HEAD
 .banner-img img {
    height: 530px;
    margin-right: 15px;
@@ -259,3 +291,9 @@ body {
    .card-section .card{
       padding-top: 5px;
    }
+=======
+.banner-img img{
+   height: 530px;
+   margin-right: 15px;
+}
+>>>>>>> 4475ce2176370ca687833fe5de50baf185875d6f
