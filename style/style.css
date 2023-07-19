@@ -5,10 +5,15 @@
    color: #ff42a5;
 }
 
+.common-pera {
+   color: #534c64;
+   font-size: 12px;
+   font-weight: 400;
+}
+
 /* body section */
 body {
    font-family: "Work Sans", sans-serif;
-   padding-left: 140px;
 }
 
 /* nav section */
@@ -30,6 +35,7 @@ body {
    width: 80px;
    height: 40px;
    padding-right: 20px;
+   padding-left: 140px;
 }
 
 .right-navigation {
@@ -59,6 +65,45 @@ body {
 }
 
 /* banner section */
+.banner {
+   display: flex;
+   justify-content: space-around;
+   padding-left: 140px;
+   background-image: url("../images/Group\ 14.png");
+   background-size: 50%;
+   background-repeat: no-repeat;
+}
+
+.banner-description {
+   width: 800px;
+   height: 300px;
+   margin-top: 100px;
+}
+
+.sign-in-btn {
+   color: #fff;
+   font-size: 15px;
+   font-weight: 600;
+   text-transform: uppercase;
+   border: none;
+   border-radius: 30px;
+   padding: 10px 25px;
+   background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+   margin-right: 17px;
+}
+
+.go-rogue-btn {
+   color: #fff;
+   font-size: 15px;
+   font-weight: 600;
+   text-transform: uppercase;
+   border: none;
+   border-radius: 30px;
+   padding: 10px 25px;
+   background: #4ec5f7;
+   gap: 5px;
+}
+
 .play-title {
    color: #0b0223;
    font-size: 35px;
@@ -73,3 +118,144 @@ body {
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
+
+.banner-img img {
+   height: 530px;
+   margin-right: 15px;
+}
+
+/* about section */
+.about-section-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 400px;
+}
+
+.about-section-img img {
+   width: 580px;
+   height: 350px;
+   padding-left: 140px;
+}
+
+.about-section-content {
+   text-align: center;
+   align-items: center;
+   padding-right: 150px;
+}
+
+.about-section-headings {
+   font-size: 35px;
+   font-weight: 700;
+   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   float: right;
+   margin-bottom: 0;
+}
+
+.about-section-title {
+   width: 400px;
+   color: #534c64;
+   font-size: 15px;
+   font-weight: 400;
+   float: right;
+}
+
+.about-section-btn {
+   color: #fff;
+   font-size: 15px;
+   font-weight: 700;
+   text-transform: uppercase;
+   border: none;
+   border-radius: 30px;
+   margin: 5px 0;
+   padding: 10px 25px;
+   background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+   float: right;
+}
+/* card section */
+
+.card-section {
+   text-align: center;
+}
+.card-section-style {
+   font-size: 25px;
+   font-weight: 700;
+   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+/* .card-section-headings p {
+   color: #534c64;
+   font-size: 12px;
+   font-weight: 400;
+} */
+
+.card-section-container {
+   display: flex;
+   padding-left: 150px;
+}
+
+.card-section-container .card {
+   border-radius: 16px;
+   margin-right: 15px;
+}
+
+.card-section-container img {
+   width: 230px;
+   height: 280px;
+}
+
+/* responsive styles */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+   body {
+      padding: 0;
+      margin: 0;
+   }
+   .nav {
+      flex-direction: column;
+      width: 100%; 
+   }
+
+   .right-navigation ul {
+      flex-direction: column;
+   }
+   .banner {
+      flex-direction: column;
+      padding-left: 0;
+      text-align: center;
+      width: 100%;
+   }
+   .banner-img img {
+      margin-top: 30%;
+      width: 100%;
+   }
+   .banner-description {
+      width: 100%;
+   }
+   .about-section-container {
+      flex-direction: column;
+   }
+   .about-section-img img{
+      width: 100%;
+      padding-left: 0;
+   }
+   .card-section-headings p{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      overflow-wrap: break-word;
+      border: 2px solid red;
+   }
+   .card-section-container{
+      flex-direction: column;
+      padding-left: 0;
+   }
+
+   .card-section .card{
+      padding-top: 5px;
+   }
